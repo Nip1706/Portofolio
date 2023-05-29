@@ -1,0 +1,202 @@
+h2 {
+    margin-bottom: 40px;
+}
+
+a
+{
+text-decoration: none;
+color: inherit;
+}
+
+a:hover{
+text-decoration: none;
+color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+  
+  
+  /* Styles pour la barre de navigation */
+.navbar {
+    margin-bottom: 40px;
+    background-color: #61acaf;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none; /* Enlève les puces */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 10px 15px; /* Ajoute un padding pour créer des cases */
+    border-radius: 5px; /* Arrondit les coins des cases */
+    transition: background-color 0.3s ease; /* Ajoute une transition pour l'effet de survol */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: #f0f0f0;
+    color: #000;
+  }
+  
+
+.card {
+    margin-bottom: 30px;
+    border: 10px solid #61acaf;
+    border-radius: 5%;
+}
+
+.project-img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .project-img-booki {
+    margin-left: 25px;
+    width: 230px;
+    height: 100px;
+    object-fit:contain;
+  }
+
+  .project-img-kanap {
+    width: 120px;
+    height: 110px;
+    object-fit:contain;
+  }
+
+
+  .logo_html{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo_css{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 50px;
+  }
+
+  .logo_ga{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 50px;
+  }
+
+  .logo_gtmetrix{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 50px;
+  }
+
+  .logo_gads{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 45px;
+    height: 50px;
+  }
+
+  .logo_js{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 45px;
+    height: 50px;
+  }
+
+  .logo_nodejs{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 85px;
+    height: 50px;
+  }
+
+
+
+
+
+
+  .project-img-omf {
+    width: 280px;
+    height: 100px;
+    object-fit:contain;
+  }
+
+  .project-img-panthere {
+    width: 125px;
+    height: 125px;
+    object-fit:contain;
+  }
+
+  /* Styles pour les écrans de petite taille */
+@media (max-width: 767px) {
+    .card {
+      margin-bottom: 20px;
+    }
+    
+    .project-img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  
+  /* Styles pour les écrans de taille moyenne */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .project-img {
+      height: 250px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .project-img-omf {
+        width: 200px;
+        height: 50px;
+        object-fit:contain;
+      }
+
+      .project-img-booki {
+        width: 150px;
+        height: 50px;
+        object-fit:contain;
+      }
+
+      .project-img-panthere {
+        width: 50px;
+        height: 50px;
+        object-fit:contain;
+      }
+
+
+    
+  }
+  
+  /* Styles pour les écrans de grande taille */
+  @media (min-width: 992px) {
+    .project-img {
+      height: 300px;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+  
+
+
+
+
