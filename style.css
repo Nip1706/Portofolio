@@ -226,17 +226,6 @@ b{
   animation-delay: 22s;
 }
 
-@keyframes animate {
-  0%{
-    width: 0%;
-  }
-  70%,90%{
-    width: 37.5%;
-  }
-  100%{
-    width: 37.5%;
-  }
-}
 
 
 .multilogo img{
