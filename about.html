@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>À Propos de moi</title>
+
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">Portfolio<b>.</b></div>
+      <ul class="navItems">
+        <li><a href="index.html">Accueil</li></a>
+        <li><a href="projets.html">Mes Projets</li></a>
+        <li><a href="#">Contact</li></a>
+      </ul>
+      <div class="links">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+    </nav>
+    <div class="bloc_about">
+      <div class="text_about">
+        <span class="multiText_about"></span>
+      </div>
+      <div class="skills_cv">
+        <div class="skills">
+          <p data-text="Compétences">Compétences</p>
+          <div class="logo_about_main">
+            <div class="logo_1l">
+              <div class="logo_about">
+                <img src="/images/logo_html.png">
+              </div>
+              <div class="logo_about">
+                <img src="/images/logo_css.png">
+              </div>
+              <div class="logo_about">
+                <img src="/images/logo_js.png">
+              </div>
+            </div>
+            <div class="logo_2l">
+              <div class="logo_about">
+                <img src="/images/logo_sass.png">
+              </div>
+              <div class="logo_about">
+                <img src="/images/nodejs_logo.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cv">
+          <div class="imgbox_about">
+            <img src="/images/cvprojets1.png">
+          </div>
+          <div class="btns_about">
+            <button onclick="location.href='';">Mon CV</button>
+          </div>      
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typingEffect = new Typed(".multiText_about", {
+      strings : ["Bienvenue sur mon portfolio en ligne ! Je suis Nipuna Payagalage et je suis un développeur web passionné, spécialisé dans la création d'applications web modernes et intuitives. Explorez mes projets et découvrez mon expertise dans le développement front-end, le développement back-end et la création de sites web responsives. Contactez-moi pour discuter de vos projets et collaborer ensemble. Merci de votre visite !"],
+      loop : false,
+      typeSpeed : 30,
+      backSpeed : 80,
+      backDelay : 1500
+    })
+  </script>
+</body>
+</html>

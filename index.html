@@ -1,63 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Mon Portfolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
-  <style>
-  </style>
+  <title>Portfolio</title>
+
 </head>
 <body>
+  <div class="container">
+    <nav>
+      <div class="logo">Portfolio<b>.</b></div>
+      <ul class="navItems">
+        <li><a href="#">Accueil</li></a>
+        <li><a href="about.html">À propos de moi</li></a>
+        <li><a href="#">Mes Projets</li></a>
+        <li><a href="contact.html">Contact</li></a>
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#">Mon Portfolio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projets.html">Projets</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">À propos de moi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Mon parcours</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-
-        </ul>
+      </ul>
+      <div class="links">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
       </div>
     </nav>
-  </header>
-  <section id="hero">
-    <div class="container">
-      <h1>Bienvenue sur mon portfolio !</h1>
-      <p>Je suis un développeur passionné.</p>
-    </div>
-  </section>
 
-  <section id="about">
-    <div class="container">
-      <h2>À propos de moi</h2>
-      <p>Insérez ici une brève description de vous-même.</p>
-    </div>
-  </section>
+    <div class="wrapper">
+      <div class="cols cols0">
+        <span class="topline">Hello</span>
+        <h1>Je suis <span class="multiText"></span></h1>
+      </div>
+      <div class="cols cols1">
+        <div class="imgbox">
+          <img src="/images/fondpf.png">
+        </div>
 
-  <section id="contact">
-    <div class="container">
-      <h2>Contactez-moi</h2>
-      <!-- Insérez ici le contenu du formulaire de contact -->
-    </div>
-  </section>
 
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typingEffect = new Typed(".multiText", {
+      strings : ["Nipuna Payagalage", "Développeur Web"],
+      loop : true,
+      typeSpeed : 100,
+      backSpeed : 80,
+      backDelay : 1500
+    })
+  </script>
 </body>
 </html>
-
